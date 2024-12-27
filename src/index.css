@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color-scheme: dark;
+}
+@layer components {
+  .btn {
+    @apply py-2 px-4 rounded-[5px] cursor-pointer;
+  }
+}
